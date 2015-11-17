@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<appDir>app/</appDir>
+	<app>BaiLianMobileApp-sit-release-v0.6.0-20151013_180955-aligned.apk</app>
+	<device>Android</device>
+	<BROWSER_NAME></BROWSER_NAME>
+	<platformName>Android</platformName>
+	<devicename>4f7bb04c</devicename>
+	<CapabilityType.VERSION>4.4</CapabilityType.VERSION>
+	<CapabilityType.PLATFORM>WINDOWS</CapabilityType.PLATFORM>
+	<appPackage>cn.com.bailian.bailianmobile</appPackage>
+	<appActivity>.BaiLianMobileApp</appActivity>
+	<url>http://127.0.0.1:4723/wd/hub</url>
+</data>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[2015-11-03 13:53:36 : 等待30秒]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:53:43 : 首页加载成功]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:53:46 : 等待30秒]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:53:46 : 当前webview=NATIVE_APP]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:53:48 : 切换后的webview WEBVIEW_cn.com.bailian.bailianmobile]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:53:48 : 等待5秒]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:53:52 : 点击"我"]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:53:54 : 点击"登录"]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:53:59 : 清空用户名字段]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:02 : 输入的用户名： = 18516042869]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:06 : 输入的密码= donkey1987]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:08 : 点击"登录"按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:14 : 登录成功= 18516042869]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:16 : 获取当前webview=NATIVE_APP]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:16 : 切换webview= WEBVIEW_cn.com.bailian.bailianmobile]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:22 : 点击首页的搜索框]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:22 : 切换webview= WEBVIEW_cn.com.bailian.bailianmobile]]>
+    </line>
+    <line>
+      <![CDATA[2015-11-03 13:54:25 : 点击"搜索"]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="158094" started-at="2015-11-03T05:51:56Z" finished-at="2015-11-03T05:54:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="158094" started-at="2015-11-03T05:51:56Z" finished-at="2015-11-03T05:54:34Z">
+      <class name="com.merry.android.blemall.BLAndroidTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.merry.android.blemall.BLAndroidTest@4ac5af5c]" name="setUp" is-config="true" duration-ms="100591" started-at="2015-11-03T13:51:56Z" finished-at="2015-11-03T13:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="firstPageLoad()[pri:0, instance:com.merry.android.blemall.BLAndroidTest@4ac5af5c]" name="firstPageLoad" duration-ms="9510" started-at="2015-11-03T13:53:36Z" finished-at="2015-11-03T13:53:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2015-11-03 13:53:36 : 等待30秒]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:53:43 : 首页加载成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- firstPageLoad -->
+        <test-method status="PASS" signature="loginBaiLian()[pri:0, instance:com.merry.android.blemall.BLAndroidTest@4ac5af5c]" name="loginBaiLian" duration-ms="30117" started-at="2015-11-03T13:53:46Z" finished-at="2015-11-03T13:54:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2015-11-03 13:53:46 : 等待30秒]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:53:46 : 当前webview=NATIVE_APP]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:53:48 : 切换后的webview WEBVIEW_cn.com.bailian.bailianmobile]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:53:48 : 等待5秒]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:53:52 : 点击"我"]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:53:54 : 点击"登录"]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:53:59 : 清空用户名字段]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:54:02 : 输入的用户名： = 18516042869]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:54:06 : 输入的密码= donkey1987]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:54:08 : 点击"登录"按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:54:14 : 登录成功= 18516042869]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginBaiLian -->
+        <test-method status="PASS" signature="searchGoods()[pri:0, instance:com.merry.android.blemall.BLAndroidTest@4ac5af5c]" name="searchGoods" duration-ms="15418" started-at="2015-11-03T13:54:16Z" finished-at="2015-11-03T13:54:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2015-11-03 13:54:16 : 获取当前webview=NATIVE_APP]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:54:16 : 切换webview= WEBVIEW_cn.com.bailian.bailianmobile]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:54:22 : 点击首页的搜索框]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:54:22 : 切换webview= WEBVIEW_cn.com.bailian.bailianmobile]]>
+            </line>
+            <line>
+              <![CDATA[2015-11-03 13:54:25 : 点击"搜索"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchGoods -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.merry.android.blemall.BLAndroidTest@4ac5af5c]" name="tearDown" is-config="true" duration-ms="2405" started-at="2015-11-03T13:54:31Z" finished-at="2015-11-03T13:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.merry.android.blemall.BLAndroidTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

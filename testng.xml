@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+    <test  name="TestDebug" preserve-order="true">  
+        <classes>
+            <class name="com.merry.android.blemall.FirstPageLoad_01"/>
+            <class name="com.merry.android.blemall.LoginBaiLian_02"/>
+             <class name="com.merry.android.blemall.SearchGoods_05"/>
+            <class name="com.merry.android.blemall.SingleGoodsPage_03"/>
+            <class name="com.merry.android.blemall.AddGoodsToShoppingCart_04"/>
+            <class name="com.merry.android.blemall.QueryShoppingcart"/>
+            <class name="com.merry.android.blemall.CreateOrder"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

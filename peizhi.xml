@@ -1,0 +1,27 @@
+@BeforeClass
+	public void setUp() throws Exception {
+		xml.load("E:\\phone\\AndRoidTest\\file\\bailian.xml");
+		File classpathRoot = new File(System.getProperty("user.dir"));
+		File appDir = new File(classpathRoot, xml.getElementText("data/appDir"));
+		File app = new File(appDir, xml.getElementText("data/app"));
+		DesiredCapabilities capabilities = new DesiredCapabilities();
+		capabilities.setCapability("device", xml.getElementText("data/device"));
+		capabilities.setCapability(CapabilityType.BROWSER_NAME,
+				xml.getElementText("data/BROWSER_NAME"));
+		capabilities.setCapability("platformName",
+				xml.getElementText("data/platformName"));
+		capabilities.setCapability("deviceName",
+				xml.getElementText("data/devicename"));
+		capabilities.setCapability(CapabilityType.VERSION,
+				xml.getElementText("data/CapabilityType.VERSION"));
+		capabilities.setCapability(CapabilityType.PLATFORM,
+				xml.getElementText("data/CapabilityType.PLATFORM"));
+		capabilities.setCapability("appPackage",
+				xml.getElementText("data/appPackage"));
+		capabilities.setCapability("appActivity",
+				xml.getElementText("data/appActivity"));
+		androidDriver = new AndroidDriver<MobileElement>(new URL(
+				"http://127.0.0.1:4723/wd/hub"), capabilities);
+		androidDriver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		snapshot(androidDriver, "test");
+	}
